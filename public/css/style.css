@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Wrapper */
+
+#wrapper {
+    width: 100%;
+}
+
+
+/* Header */
+
+header {
+    background-color: #d89aa3;
+    padding: 15px;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #6cc56c;
+    padding: 10px;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Main Layout */
+
+main {
+    display: flex;
+}
+
+
+/* Article */
+
+article {
+    width: 75%;
+    padding: 20px;
+}
+
+
+/* Sidebar */
+
+aside {
+    width: 25%;
+    background-color: #e5dfb8;
+    padding: 20px;
+}
+
+aside ul {
+    list-style-type: disc;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #6cc56c;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
