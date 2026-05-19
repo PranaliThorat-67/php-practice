@@ -71,6 +71,10 @@ Route::delete('/tasks/{id}', [TaskController::class, 'destroy']);
         return view('test');
     });
 
+    Route::get('/users', function() {
+        return view('users', ['user' => "pranali thorat"]);
+    });
+
 
 
 Route::fallback(function() {
