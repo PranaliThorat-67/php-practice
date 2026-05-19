@@ -45,6 +45,7 @@ Route::prefix('page')->group(function() {
     Route::get('/pranali', function () {
         return "This is first pranali";
     });
+
 });
 
 
@@ -64,6 +65,10 @@ Route::delete('/tasks/{id}', [TaskController::class, 'destroy']);
 
     Route::get('/post', function () {
         return view('post');
+    });
+
+    Route::get('/test', function () {
+        return view('test');
     });
 
 

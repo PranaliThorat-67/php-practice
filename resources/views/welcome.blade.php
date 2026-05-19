@@ -43,7 +43,15 @@
 @extends('layouts.masterlayout')
 
 @section('content')
-    <h2>Home Page</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam est consectetur excepturi. Deleniti iure officiis unde vero, aliquam praesentium, quaerat officia culpa, accusantium enim ipsam rerum saepe ipsa consequuntur repellendus!</p>
+    {{-- <h2>Home Page</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam est consectetur excepturi. Deleniti iure officiis unde vero, aliquam praesentium, quaerat officia culpa, accusantium enim ipsam rerum saepe ipsa consequuntur repellendus!</p> --}}
     
 @endsection
+
+@section('title')
+    Home
+@endsection
+
+@push('scripts')
+    <script src="script.js"></script>    
+@endpush
